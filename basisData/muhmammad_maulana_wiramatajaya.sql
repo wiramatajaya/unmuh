@@ -1,5 +1,6 @@
 -- 1 DDL (database DEFINITION LANGUAGE)
 -- CREATE TABLE & DATABASE-- 
+
 DROP DATABASE mahasiswa;
 CREATE DATABASE mahasiswa;
 USE mahasiswa ;
@@ -8,6 +9,7 @@ kode_jurusan varchar(100) NOT NULL PRIMARY KEY,
 nama_jurusan VARCHAR(25) NOT NULL,
 ketua_jurusan VARCHAR(45) NOT NULL
 );
+
 
 CREATE TABLE biodata (
     no_mhs INT PRIMARY KEY,
@@ -18,6 +20,7 @@ CREATE TABLE biodata (
     jenis_kelamin ENUM('L', 'P'),
     FOREIGN KEY (kode_jurusan) REFERENCES jurusan(kode_jurusan) ON UPDATE CASCADE
 );
+
 
 
 
