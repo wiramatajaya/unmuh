@@ -1,23 +1,32 @@
+class Biodata {
+    String name;
+    int age;
+    String gender;
+
+    public String getName() {
+        return name;
+    }
+
+    public void getAge(int _age) {
+        age = _age;
+    }
+
+    void getGender(Boolean _gender) {
+        if (_gender = true) {
+            gender = "Men";
+        } else {
+            gender = "Women";
+        }
+    }
+}
+
 public class Main {
+
     public static void main(String[] args) {
-
-        // OBJECT 1
-        Laptop laptop = new Laptop();
-        laptop.user = "Wira ";
-        laptop.brand = "ACER";
-        laptop.Running(laptop.user, laptop.brand);
-
-        // OBJECT 2
-        Laptop laptop2 = new Laptop();
-        laptop2.user = "Mata ";
-        laptop2.brand = "Asus";
-        laptop2.Running(laptop2.user, laptop2.brand);
-
-        // OBJECT 3
-        Laptop laptop3 = new Laptop();
-        laptop3.user = "Jaya ";
-        laptop3.brand = "Lenovo";
-        laptop3.Running(laptop3.user, laptop3.brand);
+        Biodata bio1 = new Biodata();
+        bio1.name = "wiramatajaya";
+        bio1.getGender(true);
 
     }
+
 }

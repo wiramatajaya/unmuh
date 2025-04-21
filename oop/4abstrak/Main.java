@@ -1,30 +1,29 @@
+class Abstract {
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String _name) {
+        name = _name;
+    }
+
+    Abstract(String _name) {
+        name = _name;
+    }
+}
 
 public class Main {
     public static void main(String[] args) {
 
-        // NEW OBJECT
-        Comic book1 = new Comic("Boruto", 35000, "action");
+        // MEMBUAT NAMA
+        Abstract bio = new Abstract("wiramatajaya");
+        System.out.println(bio.getName());
 
-        // GET PROPERTIES
-        // dari parent
-        System.out.println(book1.getTitle());
-        System.out.println(book1.getPrice());
-
-        // Dari child
-        System.out.println(book1.getCategory());
-
-        // SET PROPERTIES
-        book1.setTitle("Naruto");
-        book1.setPrice(50000);
-        book1.setCategory("advanture");
-
-        //
-        System.out.println("\nSETELAH DI UBAH ");
-        System.out.println(book1.getTitle());
-        System.out.println(book1.getPrice());
-        System.out.println(book1.getCategory());
-
-        // GET & SET CHILD
+        // MENGUBAH NAMA
+        bio.setName("muhammad Maulana");
+        System.out.println(bio.getName());
 
     }
 }
