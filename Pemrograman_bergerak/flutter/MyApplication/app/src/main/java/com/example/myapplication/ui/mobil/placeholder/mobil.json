@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "merek": "Toyota",
+    "model": "Avanza G Manual",
+    "tahun": 2023,
+    "harga": 250000000,
+    "tipeBahanBakar": "Bensin"
+  },
+  {
+    "id": 2,
+    "merek": "Honda",
+    "model": "HR-V SE CVT",
+    "tahun": 2024,
+    "harga": 380000000,
+    "tipeBahanBakar": "Bensin"
+  },
+  {
+    "id": 3,
+    "merek": "Mitsubishi",
+    "model": "Xpander Ultimate",
+    "tahun": 2023,
+    "harga": 290000000,
+    "tipeBahanBakar": "Bensin"
+  },
+  {
+    "id": 4,
+    "merek": "Suzuki",
+    "model": "Jimny Offroad",
+    "tahun": 2024,
+    "harga": 450000000,
+    "tipeBahanBakar": "Bensin"
+  },
+  {
+    "id": 5,
+    "merek": "Wuling",
+    "model": "Air EV Long Range",
+    "tahun": 2024,
+    "harga": 295000000,
+    "tipeBahanBakar": "Listrik"
+  },
+  {
+    "id": 6,
+    "merek": "Daihatsu",
+    "model": "Rocky 1.2 M MT",
+    "tahun": 2023,
+    "harga": 210000000,
+    "tipeBahanBakar": "Bensin"
+  }
+]

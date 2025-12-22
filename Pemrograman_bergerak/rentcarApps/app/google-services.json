@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "267700121639",
+    "project_id": "nextapp-cc605",
+    "storage_bucket": "nextapp-cc605.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267700121639:android:1fa2a219fac87f312c5e02",
+        "android_client_info": {
+          "package_name": "com.example.firstapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD780KQd3_lQiiIicI-dwVKP9t1H-yK-Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267700121639:android:577f2643db67b81c2c5e02",
+        "android_client_info": {
+          "package_name": "com.example.rentcarapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD780KQd3_lQiiIicI-dwVKP9t1H-yK-Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
